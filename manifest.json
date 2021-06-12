@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "PollChef",
+    "version": "1.0",
+    "description": "Polls the Codechef API so that you don't have to",
+    "background": {
+        "scripts": [
+            "notify.js"
+        ],
+        "persistent": true
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.codechef.com/*"
+            ],
+            "js": [
+                "problemDetails.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "<all_urls>",
+        "webRequest",
+        "webRequestBlocking",
+        "storage",
+        "tabs",
+        "activeTab",
+        "notifications"
+    ]
+}
