@@ -5,6 +5,7 @@
     "description": "Polls the Codechef API so that you don't have to",
     "background": {
         "scripts": [
+            "jquery.min.js",
             "notify.js"
         ],
         "persistent": true
@@ -20,7 +21,7 @@
         }
     ],
     "permissions": [
-        "<all_urls>",
+        "https://www.codechef.com/*",
         "webRequest",
         "webRequestBlocking",
         "storage",
