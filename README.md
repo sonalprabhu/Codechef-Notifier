@@ -1,6 +1,3 @@
-Here’s your **GitHub README.md** file for the **CodeChef Notifier** extension:  
-
-```markdown
 # CodeChef Notifier - Chrome Extension  
 
 A Chrome extension that automates the process of tracking submission verdicts on **CodeChef**. Instead of manually checking the submission page, this extension captures the submission ID, pings the CodeChef REST API for updates, and notifies the user through desktop notifications when the verdict is available.  
